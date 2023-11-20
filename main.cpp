@@ -5,6 +5,7 @@ class monika
 {
 public:
     std::string name = "monika";
+    int old = 19;
 private:
 
 };
