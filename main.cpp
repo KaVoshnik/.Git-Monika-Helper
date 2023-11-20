@@ -1,6 +1,15 @@
 #include <iostream>
 #include <string>
+#include <fstream>
+#include <Windows.h>
 
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE prevInstance,
+				   PSTR cmdLine, int showCmd)
+
+{
+	WinExec( "C:\\osu!\\osu!.exe", 1);
+	return 0;
+}
 class monika
 {
 public:
@@ -13,5 +22,6 @@ private:
 int main(){
 
     std::cout << "hello world" << std::endl;
+
 
 }
