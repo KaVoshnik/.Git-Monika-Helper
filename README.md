@@ -10,6 +10,8 @@
 - 0.1 - Add features:
 > Launching osu!
 > +
+> Launching base programs
+> -
 > YouTube launch
 > -
 > Notes
