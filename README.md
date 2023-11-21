@@ -9,10 +9,10 @@
 # In Future
 - 0.1 - Add features:
 > Launching osu!
-> Y
+> 
 > Launching base programs
-> N
+> 
 > YouTube launch
-> N
+> 
 > Notes
-> N
+> 
