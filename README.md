@@ -12,7 +12,5 @@
 > 
 > YouTube launch
 > 
-> weather display
-> 
 > schedule for tomorrow
 > 
