@@ -8,9 +8,9 @@
 
 # In Future
 - 0.1 - Add features:
-> launching applications
-> 
+> Launching osu!
+> +
 > YouTube launch
-> 
-> schedule for tomorrow
-> 
+> -
+> Notes
+> -
