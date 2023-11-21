@@ -1,12 +1,12 @@
 #pragma warning(disable : 4996)
+#pragma comment(lib,"curllib.lib")
 
 #include <iostream>
 #include <string>
 #include <fstream>
 #include <ctime>
 #include <Windows.h>
-
-
+#include <curl/curl.h>
 class monika
 {
 public:
