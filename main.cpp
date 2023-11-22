@@ -25,6 +25,4 @@ int main() {
 
     //WinExec("c:\\Users\\KaVo\\AppData\\Local\\osu!", 1);
     //return 0;
-//git config --global user.name "Kirill"
-//git config --global user.email hikkan008@gmail.com
 }
