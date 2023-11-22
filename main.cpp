@@ -21,8 +21,10 @@ int main() {
     
     std::cout << "Time: " <<  ctime (&rawtime);
 
-    std::cout << "code execution" << std::endl;
+    std::cout << "Code execution" << std::endl;
 
-    //WinExec("C:\\osu!\\osu!.exe", 1);
+    //WinExec("c:\\Users\\KaVo\\AppData\\Local\\osu!", 1);
     //return 0;
+//git config --global user.name "Kirill"
+//git config --global user.email hikkan008@gmail.com
 }
