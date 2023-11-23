@@ -23,6 +23,6 @@ int main() {
 
     std::cout << "Code execution" << std::endl;
 
-    //WinExec("c:\\Users\\KaVo\\AppData\\Local\\osu!", 1);
-    //return 0;
+    WinExec("C:\\Users\\KaVo\\AppData\\Local\\osu!", 1);
+    return 0;
 }
