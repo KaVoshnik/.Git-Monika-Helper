@@ -27,7 +27,7 @@ int main() {
     time_t rawtime;
     time ( &rawtime );
 
-    std::cout << "Hi i am a " << Helper.H_name << std::endl;
+    std::cout << "Hi i am a " << Helper.H_name << " i a " << Helper.old << " old" << std::endl;
     std::cout << "Time: " <<  ctime (&rawtime);
     
     std::cout << "Code execution" << std::endl;
