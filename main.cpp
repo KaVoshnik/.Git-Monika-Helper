@@ -11,8 +11,8 @@
 class Helper
 {
 public:
-    std::string H_name;
-    std::string P_name;
+    std::string H_name = "monika";
+    std::string P_name = "Kavo";
     int old = 19;
 private:
 
@@ -27,9 +27,7 @@ int main() {
     time_t rawtime;
     time ( &rawtime );
 
-    std::cin >> Helper.P_name;
-
-    std::cout << "Hi i am a " << Helper.H_name << 
+    std::cout << "Hi i am a " << Helper.H_name << std::endl;
     std::cout << "Time: " <<  ctime (&rawtime);
     
     std::cout << "Code execution" << std::endl;
