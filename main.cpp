@@ -11,18 +11,28 @@
 class Helper
 {
 public:
-    std::string H_name = "monika";
-    std::string P_name = "Kavo";
-    int old = 19;
+    std::string H_name;
+    std::string U_name;
+    int old;
 private:
 
 
-Helper(std::string _P_name, std::string _H_name, int _old) :
-        P_name(_P_name), H_name(_H_name), old(_old) {}
+Helper(std::string _U_name, std::string _H_name, int _old) :
+        U_name(_U_name), H_name(_H_name), old(_old) {}
 };
        
 
 int main() {
+
+    std::string nameIn_h;
+    std::string nameIn_u;
+
+    std::cout << "Input Helper name: " << std::endl;
+    std::cin >> nameIn_h;
+    std::cout << "Input User name: " << std::endl;
+    std::cin >> nameIn_u;
+
+    Helper info(std::string nameIn_h, std::string nameIn_U, int = 19);
 
     time_t rawtime;
     time ( &rawtime );
