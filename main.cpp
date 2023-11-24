@@ -34,14 +34,16 @@ int main() {
 
     Helper info(std::string nameIn_h, std::string nameIn_U, int = 19);
 
+    std::cout << "Hi i am a " << nameIn_h << " i a " << 19 << " old" << std::endl;
+
+
     time_t rawtime;
     time ( &rawtime );
 
-    std::cout << "Hi i am a " << Helper.H_name << " i a " << Helper.old << " old" << std::endl;
     std::cout << "Time: " <<  ctime (&rawtime);
-    
-    std::cout << "Code execution" << std::endl;
 
     WinExec("C:\\osu!", 1);
+
+    std::cout << "Code execution" << std::endl;
     return 0;
 }
