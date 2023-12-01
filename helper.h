@@ -8,7 +8,7 @@
 #include <iomanip>
 #include <Windows.h>
 
-   int HelperRun = 1;
+
 
 class Helper
 {
@@ -17,9 +17,11 @@ public:
     std::string U_name;
     int old;
     void Time();
-    void RunProgs();
+    int getRun();
 
 private:
-    void IfRun();
+    void IfRun(int HelperRun);
+    int HelperRun_;
+    void RunProgs();
 
 };

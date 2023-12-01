@@ -1,9 +1,9 @@
 #include "helper.h"
        
-
+    int Helper::getRun() {return HelperRun_;}
 
 void Helper::RunProgs() {
-    WinExec("C:\\osu!", 1);
+    WinExec("d:\\down\\404.gif", 1);
 }
 
 void Helper::Time() {
@@ -12,20 +12,21 @@ void Helper::Time() {
 
     std::cout << "Time: " <<  ctime (&rawtime);
 }
+ 
+void Helper::IfRun(int HelperRun) {
 
-void Helper::IfRun() {
-
-    if (HelperRun == 1)
-    std::cout << "Helper is run" << std::endl;
+    if (HelperRun == 1){
+    std::cout << "Helper is runing" << std::endl;
+    std::cout << HelperRun << std::endl;
+    }
     else 
     throw std::runtime_error("Runtime Error");
-        
+       
 }
 
 int main() {
    
-    return HelperRun;
-    Helper.IfRun
+    Helper.IfRun();
     
     Helper.Time();
     Helper.RunProgs();
