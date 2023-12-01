@@ -8,12 +8,18 @@
 #include <iomanip>
 #include <Windows.h>
 
+   int HelperRun = 1;
+
 class Helper
 {
 public:
     std::string H_name;
     std::string U_name;
     int old;
+    void Time();
+    void RunProgs();
+
 private:
+    void IfRun();
 
 };
