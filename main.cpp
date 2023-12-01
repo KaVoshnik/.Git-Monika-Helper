@@ -1,25 +1,4 @@
-#pragma warning(disable : 4996)
-
-#include <iostream>
-#include <string>
-#include <fstream>
-#include <ctime>
-#include <vector>
-#include <iomanip>
-#include <Windows.h>
-
-class Helper
-{
-public:
-    std::string H_name;
-    std::string U_name;
-    int old;
-private:
-
-
-Helper(std::string _U_name, std::string _H_name, int _old) :
-        U_name(_U_name), H_name(_H_name), old(_old) {}
-};
+#include "helper.h"
        
 int main() {
 
